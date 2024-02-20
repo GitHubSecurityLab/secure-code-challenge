@@ -3,9 +3,10 @@ document.getElementById('usernameForm').addEventListener('submit', function(even
     var errorDiv = document.getElementById('error');
     errorDiv.innerHTML = '';
 
-    // Check if username is alphanumeric, between 3 and 8 characters, and contain at least 2 letters and 1 number
-    if (!/^(?=.*[0-9])(?=.*[a-zA-Z].*[a-zA-Z])[a-zA-Z0-9]{3,8}$/i.test(username)) {
-        errorDiv.innerHTML = 'Username must be alphanumeric, between 3 and 8 characters,<br>and contain at least 2 letters and 1 number.';
+    // Check if username is between 4 and 34 characters, containing at least 3 letters and 1 digit
+    var regex = /^(?=(.*[a-zA-Z]){3})(?=.*\d)[^]{4,34}$/;
+    if (!regex.test(username)) {
+        errorDiv.innerHTML = 'Username must be between 4 and 34 characters, containing at least 3 letters <br> and 1 digit';
         event.preventDefault();
     } else {
         // Prevent the default form submission which would cause a page reload
