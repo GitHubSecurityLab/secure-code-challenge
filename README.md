@@ -67,4 +67,4 @@ Once installation has completed, clone your repository to your local machine and
 
 #### ❓ Help & Support
 
-Email us at securitylab-social@github.com
+Ask in the Discussions tab of this repository or email us at securitylab-social@github.com
