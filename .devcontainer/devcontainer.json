@@ -1,0 +1,4 @@
+{
+    "onCreateCommand": "sudo apt-get update && sudo apt install -y nodejs",
+    "postCreateCommand": "npm install express body-parser express-rate-limit"
+  }

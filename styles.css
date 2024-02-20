@@ -1,0 +1,75 @@
+/* Set the background color, text color, and font for the body */
+body {
+    background-color: black; /* Set the background color to black */
+    color: white; /* Set the text color to white */
+    font-family: 'mona-sans', sans-serif; /* Set the font to 'mona-sans', and use sans-serif as a fallback */
+}
+
+/* Style text input fields */
+input[type=text] {
+    background-color: white;
+    color: black;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+/* Style h1 elements */
+h1 {
+    color: white; /* Set the text color to white */
+}
+
+/* Style the submit button */
+input[type=submit] {
+    background-color: #2ea44f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'mona-sans', sans-serif;
+    font-size: 1em;
+    padding: 8px 16px;
+    margin-top: 10px;
+}
+
+/* Change the submit button color on hover */
+input[type=submit]:hover {
+    background-color: #2a8c3e;
+}
+
+/* Style the welcome message */
+.welcome-message {
+    font-family: 'mona-sans', sans-serif;
+    font-size: 2em;
+    color: white;
+}
+
+/* Style the refresh message */
+.refresh-message {
+    font-family: 'mona-sans', sans-serif;
+    font-size: 1.2em;
+    color: white;
+}
+
+/* CSS to position the content a bit below the top of the page */
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding-top: 50px; /* Adjust this value to move the content up or down */
+}
+
+/* CSS to style the error message */
+#error {
+    color: red;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+#errorContainer {
+    word-wrap: break-word;
+}
+
+/* Enjoying this callenge? We have 10 more challenges for you in the Secure Code Game. Play at gh.io/securecodegame */

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>Username Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- Meta tag for CSRF token -->
+    <meta name="csrf-token" content="{{csrfToken}}">
+</head>
+<body> <!-- Contains the content that is rendered on the browser -->
+    <div id="content"> <!-- Div that contains the form and the heading. This will be replaced with the welcome message after successful form submission -->
+        <!-- New div to wrap the text and the form. This div fits the content and aligns the text to the left -->
+        <div style="display: inline-block; text-align: left;">
+            <h1 id="prompt">Enter your username</h1>
+            <form id="usernameForm"> <!-- Form for entering the username -->
+                <input type="text" id="username" name="username" required> <!-- Text input field for the username -->
+                <div id="errorContainer">
+                    <div id="error"></div> <!-- Div to display error messages -->
+                </div>
+                <input type="submit" value="Submit"> <!-- Submit button for the form -->
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script> <!-- Link to the external JavaScript file -->
+</body>
+</html>
+
+<!-- Enjoying this callenge? We have 10 more for you in the [Secure Code Game](https://gh.io/securecodegame)! -->
