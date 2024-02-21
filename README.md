@@ -63,7 +63,7 @@ Once installation has completed, clone your repository to your local machine and
 1. You can be 1 of the 3 winners to receive a **GitHub Shop Voucher of 60 USD plus free shipping!**
 1. The competition will run in a first-come, first-served basis where winners will be the first 3 to submit the correct answers.
 1. We will inform the winners via email and we will publish our model solutions as a **GitHub Discussion** in this repository after the challenge ends.
-1. Finally, remember: we have 10 more challenges for you in the [Secure Code Game](https://gh.io/securecodegame)!
+1. Enjoying this callenge? We have 10 more for you in the [Secure Code Game](https://gh.io/securecodegame)!
 
 #### ❓ Help & Support
 
