@@ -2,7 +2,7 @@
 
 ## 👋 Welcome
 
-The mission of the GitHub Security Lab is to inspire and enable the community to secure the open source software we all depend on. Today, we are excited to present you a code security challenge inspired from real-world code, with which you can feel part of us through the thrill of finding and fixing a security issue!
+The mission of the GitHub Security Lab is to inspire and enable the community to secure the open source software we all depend on. Today, we are excited to present you a code security challenge inspired from real-world code, with which you can feel part of us through the thrill of finding and fixing a security issue to win [GitHub Shop](https://www.thegithubshop.com/) vouchers!
 
 ## 🎮 Time to PLAY!
 
@@ -59,7 +59,7 @@ Once installation has completed, clone your repository to your local machine and
 
 #### 🔐 Submit your solution!
 
-1. Answer [3 simple questions](https://forms.gle/EdGsWrqMcQZQ8myN6) about this challenge and win!
+1. Answer [3 simple questions](https://forms.gle/EdGsWrqMcQZQ8myN6) about this challenge and win [GitHub Shop](https://www.thegithubshop.com/) vouchers!
 1. The competition will run in a first-come, first-served basis where winners will be the first to submit the correct answers.
 1. We will inform the winners via email and we will publish our model solutions as a **GitHub Discussion** in this repository after the challenge ends.
 1. Enjoying this callenge? We have 10 more for you in the [Secure Code Game](https://gh.io/securecodegame)!
